@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
 class MenCategoryScreen extends StatelessWidget {
+  List<String> men = [
+    'Shirt',
+    'T-Shirt',
+    'Jacket',
+    'Suit',
+    'Jeans'
+  ];
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -21,16 +28,28 @@ class MenCategoryScreen extends StatelessWidget {
             crossAxisCount: 3,
             crossAxisSpacing: 15,
             mainAxisSpacing: 70,
-            children: List.generate(5, (index) {
-              return Container(
-                color: Colors.cyan,
-                height: 50,
-                width: 50,
-                child: Image.asset(
-                  'lib/assets/images/mens/men$index.png',
-                ),
-              );
-            }),
+            children: List.generate(
+              5,
+              (index) {
+                return Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    children: [
+                      SizedBox(
+                        height: 50,
+                        width: 50,
+                        child: Image.asset(
+                          'lib/assets/images/mens/men$index.png',
+                        ),
+                      ),
+                      Text(
+                        men[index],
+                      ),
+                    ],
+                  ),
+                );
+              },
+            ),
           ),
         )
       ],
