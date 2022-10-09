@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5133816262",
+    "project_id": "mutiveder",
+    "storage_bucket": "mutiveder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5133816262:android:976bdb1197fa77df1ea2c7",
+        "android_client_info": {
+          "package_name": "com.dlhq.multivender_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5133816262-geieptuf0iaahssknmllvmbiu2su2nlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFU1LXyVHXGWSLPhFhBpgn0bCga-3YF0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5133816262-geieptuf0iaahssknmllvmbiu2su2nlr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
